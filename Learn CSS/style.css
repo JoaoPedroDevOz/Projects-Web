@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+main {
+    background-color: white;
+    width: 550px;
+    padding: 80px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px, 4px, 10px, rgb(0, 0, 0);
+
+}
+
+body {
+    background: #1A2838;
+}
+
+h1 {
+    text-align: center;
+    color: #0D2C4D;
+    font-family: 'Amatic SC', 'cursive';
+    font-size: 2em;
+}
+
+p {
+    text-align: justify;
+}
+
+.title {
+    text-align: center;
+    position: absolute;
+}
+

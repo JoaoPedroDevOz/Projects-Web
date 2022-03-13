@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Reprodução de aúdio</h1>
+
+<h3>Primeira syntax</h3>
+<p> audio src="audio/natural.mp3" controls autoplay>audio </p>
+<audio src="audio/thelight.mp3" controls autoplay></audio> 
+
+<h3>Segunda syntax</h3>
+
+<p>source scr="audio/thelight.mp3" type="audio/mpeg"</p>
+
+<audio preload="metadata" autoplay controls>
+    <source scr="audio/thelight.mp3" type="audio/mpeg">
+
+    <p>Infelizmente o navegador não tem suporte</p>
+    <a href="audio/thelight.mp3" download="audio/thelight.mp3" type="audio/mpeg">Aperte aqui</a>para fazer o download do audio
+</audio>
+
+<p>Para acessar a página de vídeo <a href="Pagvideo.html">aperte aqui</a> </p>
+<p>Para acessar a página de imagens <a href="Pagimg.html" rel="next">aperte aqui</a> </p>
+<p>Para retornar à página inicial <a href="index.html">aperte aqui</a> </p>
+
+</body>
+</html>
